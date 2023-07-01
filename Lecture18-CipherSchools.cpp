@@ -1,6 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
+//Ques 1
 bool isValid(string s) {
     if(s.empty()){
         return true;
@@ -26,6 +27,7 @@ bool isValid(string s) {
 }
 
 
+//Ques 2
 int minSwaps(string s) {
     stack<char> st;
 
