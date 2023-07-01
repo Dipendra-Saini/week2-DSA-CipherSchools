@@ -67,6 +67,6 @@ Node* copyRandomList(Node* head) {                              // Using pointer
 
 
 int main(){
-    cout<<"Good"<<endl;
+    cout<<"Nice one"<<endl;
     return 0;
 }
