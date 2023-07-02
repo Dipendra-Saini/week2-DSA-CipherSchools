@@ -61,7 +61,7 @@ void vot(Node* root,int hd,map<int,vector<int>> &mp){
     if(root==NULL){
         return;
     }
-    mp[hd].push_back(root->val);
+    mp[hd].push_back(root->data);
     vot(root->left,hd-1,mp);
     vot(root->right,hd+1,mp);
 }
